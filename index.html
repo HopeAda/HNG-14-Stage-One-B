@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+   <title>HNG Stage 1 B | Testable Profile Card</title>
+</head>
+
+<body>
+   <article class="root-container" data-testid="test-profile-card">
+      <figure class="img-container">
+         <img src="./profile.jpeg" alt="A profile avatar" class="avatar" data-testid="test-user-avatar">
+      </figure>
+      <section class="info">
+         <h2 aria-label="Profile name" class="name" data-testid="test-user-name">Adama Asenath</h2>
+         <p class="bio" data-testid="test-user-bio">I am a front-end developer with a passion for building responsive,
+            visually appealing, and user-focused web interfaces.</p>
+      </section>
+      <section class="lists">
+         <div class="hobbies-list" data-testid="test-user-hobbies">
+            <h3>Hobbies</h3>
+            <ul>
+               <li>Music</li>
+               <li>Reading</li>
+               <li>Designing</li>
+            </ul>
+         </div>
+         <div class="dislikes-list" data-testid="test-user-dislikes">
+            <h3>Dislikes</h3>
+            <ul>
+               <li>Loud noises</li>
+               <li>Queues</li>
+               <li>Messy places</li>
+            </ul>
+         </div>
+      </section>
+      <section class="card-footer">
+         <div class="socials-list" data-testid="test-user-social-links">
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+         </div>
+         <div class="current-time">
+            <p><span>1637473546</span> ms</p>
+         </div>
+
+      </section>
+   </article>
+</body>
+
+</html>
