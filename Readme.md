@@ -122,4 +122,4 @@ No build tools or dependencies required. Open `index.html` directly in a browser
 
 ## Author
 
-> Hope Ada
+> HopeAda
