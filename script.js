@@ -4,4 +4,5 @@ const updateTime = () => {
 	timeContainer.textContent = Date.now();
 };
 
+updateTime()
 setInterval(updateTime, 1000);
