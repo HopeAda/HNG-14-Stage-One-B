@@ -10,7 +10,6 @@
 
 * {
 	border: none;
-	outline: none;
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
@@ -118,9 +117,9 @@ h3 {
 	justify-content: center;
 }
 
-/* .socials-list {
-	border-right: 1px solid var(--gray);
-} */
+.socials-list {
+	gap: 7px;
+}
 
 .socials-list a {
 	width: 30px;
@@ -135,6 +134,10 @@ h3 {
 .socials-list a:hover,
 .socials-list a:focus-visible {
 	background-color: var(--gray);
+	outline: 1px solid var(--text-muted);
+	outline-offset: 2px;
+	scale: 1.1;
+	transition: all 0.3s;
 }
 
 .socials-list a svg {
