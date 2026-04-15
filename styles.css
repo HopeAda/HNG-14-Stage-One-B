@@ -34,6 +34,7 @@ article {
 	border-radius: 15px;
 	gap: 1rem;
 	max-width: 300px;
+	box-shadow: 0 0 15px 2px var(--gray);
 }
 
 .img-container {
